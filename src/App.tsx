@@ -166,7 +166,7 @@ function App() {
       <Alert
         message={successAlert}
         isOpen={successAlert !== ''}
-        variant="सफलता"
+        variant="success"
       />
     </div>
   )
