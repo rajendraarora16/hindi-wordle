@@ -160,13 +160,13 @@ function App() {
         इस खेल के बारे में
       </button>
 
-      <Alert message="Not enough letters" isOpen={isNotEnoughLetters} />
-      <Alert message="Word not found" isOpen={isWordNotFoundAlertOpen} />
-      <Alert message={`The word was ${solution}`} isOpen={isGameLost} />
+      <Alert message="पर्याप्त शब्द नहीं" isOpen={isNotEnoughLetters} />
+      <Alert message="शब्द नहीं मिला" isOpen={isWordNotFoundAlertOpen} />
+      <Alert message={`शब्द था ${solution}`} isOpen={isGameLost} />
       <Alert
         message={successAlert}
         isOpen={successAlert !== ''}
-        variant="success"
+        variant="सफलता"
       />
     </div>
   )
