@@ -4,6 +4,8 @@
 Inspired from the [cloned repo](https://github.com/hannahcode/wordle)
 The original game [wordle english](https://www.powerlanguage.co.uk/wordle/)
 
+# [Hindi Wordle](https://hindi-wordle.rajendraarora.com/)
+
 _To Run Locally:_
 Clone the repository and perform the following command line actions:
 ```bash
