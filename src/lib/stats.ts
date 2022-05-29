@@ -35,7 +35,7 @@ export const addStatsForCompletedGame = (
 }
 
 const defaultStats: GameStats = {
-  winDistribution: [0, 0, 0, 0, 0, 0],
+  winDistribution: [0, 0, 0, 0],
   gamesFailed: 0,
   currentStreak: 0,
   bestStreak: 0,

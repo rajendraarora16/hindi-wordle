@@ -3,7 +3,7 @@ import { solutionIndex } from './words'
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
-    `हिंदी शब्द ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
+    `हिंदी शब्द ${solutionIndex} ${lost ? 'X' : guesses.length}/4\n\n` +
       generateEmojiGrid(guesses)
   )
 }
