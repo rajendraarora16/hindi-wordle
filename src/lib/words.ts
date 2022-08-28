@@ -14,7 +14,8 @@ export const isWinningWord = (word: string) => {
 
 export const getWordOfDay = () => {
   // Jun 26, 2022 Game Epoch
-  const epochMs = 1656231925527
+  // For creating timestamp --> Date.now()
+  const epochMs = 1661672552689
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
